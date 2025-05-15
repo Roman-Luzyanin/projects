@@ -86,13 +86,25 @@ nav button {
   cursor: pointer;
 }
 
+nav button:nth-child(1) {
+  font-size: 17px;
+}
+
+nav button:nth-child(2) {
+  font-size: 18px;
+}
+
+nav button:nth-child(3) {
+  font-size: 19px;
+}
+
 nav button:nth-child(1):hover {
-  background: url(./images/underscore1.png) no-repeat 50% 80%/ 100%;
+  background: url(./images/underscore1.png) no-repeat 50% 75%/ 100%;
   
 }
 
 nav button:nth-child(2):hover {
-  background: url(./images/underscore1.png) no-repeat 50% 83%/ 100%;
+  background: url(./images/underscore1.png) no-repeat 50% 80%/ 100%;
  
 }
 
