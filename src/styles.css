@@ -113,7 +113,6 @@ nav button:nth-child(4):hover {
   width: 90%;
   height: 100%;
   margin: 40px auto;
-  background: url(./images/about/ornament.png) no-repeat 96% 71% / 17%;
 }
 
 .home h1 {
@@ -131,6 +130,10 @@ nav button:nth-child(4):hover {
 
 .home p:nth-child(2) {
   margin-top: 0;
+}
+
+.home p:nth-child(3) {
+  background: url(./images/about/ornament.png) no-repeat 97% 52% / 17%;
 }
 
 .glasses {
@@ -297,6 +300,7 @@ dialog input {
   border: 1px solid darkgoldenrod;
   border-radius: 5px;
   font-family: Delius;
+  background-color: white;
 }
 
 ::placeholder {
@@ -315,4 +319,9 @@ dialog input {
   border: 1px solid darkgoldenrod;
   border-radius: 5px;
   font-family: Delius;
+}
+
+.buttons button:hover {
+  cursor: pointer;
+  background-color: #d0d0d7;
 }
